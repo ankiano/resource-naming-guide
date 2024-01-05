@@ -1,2 +1,1 @@
-# resource-naming-guide
-A guide to effectively naming resources across domains to ensure identification and understanding.
+Full documentation, please see the [documentation](https://resource-naming.readthedocs.io/en/latest/#).
