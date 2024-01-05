@@ -35,7 +35,7 @@ Naming issues
 Ambiguity and the problem of vocabulary
 ---------------------------------------
 
-No single word can be considered the "best" name - this phenomenon is referred to as the problem of vocabulary.
+No single word can be considered the **best** name - this phenomenon is referred to as the problem of vocabulary.
 Every natural language offers several ways to express any thought, and in particular, there are usually multiple words that can be used to denote the same object or concept. 
 People choose to name or describe things based on their experience and context, so they often disagree about the words they use. 
 Furthermore, people are often surprised when this happens because what seems natural or obvious as a name to one person is not natural or obvious to another.
@@ -50,7 +50,7 @@ When different meanings of homographs are related, it's called polysemy.
 
 Resources with homonymous and polysemous names are sometimes incorrectly identified, especially by automated processes that cannot use common sense or context. 
 When a word in one language has a different meaning and refers to different resources in another language, it can be funny or catastrophically harmful. 
-'Gift' in German means 'poison,' and 'pain' in French means 'bread'."
+``Gift`` in German means ``poison`` and ``pain`` in French means ``bread``.
 
 
 Names with unwanted associations
@@ -118,33 +118,33 @@ The lack of a unified naming style leads to confusion within a project or across
    
 
 .. code-block:: concole
-    :caption: Top 25 Representations of "Knockin' On Heaven's Door":
-    :linenos:   
-    Guns N' Roses - Knockin' On Heaven's Door
-    Guns N' Roses - Knocking On Heavens Door
-    Guns 'N' Roses - Knockin On Heaven's Door
-    Guns N' Roses - Knockin On Heavens Door
-    Guns N' Roses - Knockin' On Heavens Door
-    Guns N'roses - knockin on heavens door
-    Guns N' Roses - Knocking On Heaven's Door
-    Guns N Roses - Knockin' On Heaven's Door
-    Guns N Roses - Knockin On Heavens Door
-    Guns And Roses - Knocking On Heavens Door
-    Guns Nroses - Knockin On Heavens Door
-    Guns'n' Roses - Knockin' On Heaven's Door
-    Guns N Roses - Knocking On Heavens Door
-    Guns'n'Roses - Knockin' On Heaven's Door
-    Guns 'N Roses - Knockin' On Heaven's Door
-    Guns & Roses - Knockin' on Heaven's Door
-    Guns N'roses - Knockin' On Heaven's Door
-    Guns and Roses - Knockin' On Heaven's Door
-    Guns n Roses - Knocking On Heavens Door
-    Guns 'n' Roses - Knockin' On Heavens Door
-    Aerosmith - Knocking On Heaven's Door
-    Guns 'n Roses - Knocking On Heaven's Door
-    Guns 'n' Roses - Knocking On Heavens Door
-    Guns N Roses - Knocking On Heaven's Door
-    Guns N' Roses - Heaven's Knockin On Door
+   :caption: Top 25 Representations of "Knockin' On Heaven's Door"
+   :linenos:   
+   Guns N' Roses - Knockin' On Heaven's Door
+   Guns N' Roses - Knocking On Heavens Door
+   Guns 'N' Roses - Knockin On Heaven's Door
+   Guns N' Roses - Knockin On Heavens Door
+   Guns N' Roses - Knockin' On Heavens Door
+   Guns N'roses - knockin on heavens door
+   Guns N' Roses - Knocking On Heaven's Door
+   Guns N Roses - Knockin' On Heaven's Door
+   Guns N Roses - Knockin On Heavens Door
+   Guns And Roses - Knocking On Heavens Door
+   Guns Nroses - Knockin On Heavens Door
+   Guns'n' Roses - Knockin' On Heaven's Door
+   Guns N Roses - Knocking On Heavens Door
+   Guns'n'Roses - Knockin' On Heaven's Door
+   Guns 'N Roses - Knockin' On Heaven's Door
+   Guns & Roses - Knockin' on Heaven's Door
+   Guns N'roses - Knockin' On Heaven's Door
+   Guns and Roses - Knockin' On Heaven's Door
+   Guns n Roses - Knocking On Heavens Door
+   Guns 'n' Roses - Knockin' On Heavens Door
+   Aerosmith - Knocking On Heaven's Door
+   Guns 'n Roses - Knocking On Heaven's Door
+   Guns 'n' Roses - Knocking On Heavens Door
+   Guns N Roses - Knocking On Heaven's Door
+   Guns N' Roses - Heaven's Knockin On Door
 
 The inconsistent use of upper and lower case makes names less readable and harder to identify.
 
@@ -168,15 +168,15 @@ Unclear Abbreviations and Acronyms
 The problem of unclear abbreviations arises when projects or teams use abbreviations or acronyms that are not explained or widely known.
 This can lead to misunderstanding among team members, confusion within the project, and even conflicts due to different interpretations of the abbreviations.
 
-For example, the abbreviation 'JK' might refer to an employee, John Kowalski, but not everyone will understand it. 'PM' could mean Project Manager or Product Marketing, causing confusion in context.
+For example, the abbreviation **JK** might refer to an employee, John Kowalski, but not everyone will understand it. **PM** could mean Project Manager or Product Marketing, causing confusion in context.
 
 Acronyms like:
-   * PDCA (Plan-Do-Check-Act)
-   * TPS (Transactions Per Second)
-   * SPA (Single Page Application) 
-   * DNA (Deoxyribonucleic Acid)
-   * STEM (Science, Technology, Engineering, Mathematics)
-   * CAGR - Compound Annual Growth Rate)
+   * ``PDCA`` (Plan-Do-Check-Act)
+   * ``TPS`` (Transactions Per Second)
+   * ``SPA`` (Single Page Application) 
+   * ``DNA`` (Deoxyribonucleic Acid)
+   * ``STEM`` (Science, Technology, Engineering, Mathematics)
+   * ``CAGR`` (Compound Annual Growth Rate)
 may be unclear to non-professionals or newcomers
    
 
@@ -192,8 +192,8 @@ Names that fail to reflect the essence of a resource or object can impede unders
 ``data``
   The name 'data' might be used for various datasets, but by itself, it doesn't convey the nature or format of these data.
 ``new``
-  These names can become problematic over time as they remain undefined and become less informative when the 'newness' fades or another version emerges. 
-  In some cases, you might encounter abbreviations like 'new_new' or 'newer,' indicating something was new but has now become outdated or replaced by a newer version.
+  These names can become problematic over time as they remain undefined and become less informative when the **newness** fades or another version emerges. 
+  In some cases, you might encounter abbreviations like **new_new** or **newer**, indicating something was new but has now become outdated or replaced by a newer version.
 
 
 Choosing good names and identifiers
@@ -213,30 +213,34 @@ Avoid overly long names
 
 This principle is based on the idea that excessively long names complicate information perception and can reduce work efficiency. 
 Additionally, shorter names minimize the risk of duplicates from word rearrangement.
-This naming rule is akin to Occam's razor, suggesting that the simplest solution is often the best.
-It means it's important to condense the name to its core meaning by removing unnecessary words or phrases.
+This naming rule is like to **Occam's razor**, suggesting that the simplest solution is often the best.
+It's important to condense the name to its core meaning by removing unnecessary words or phrases.
 
 .. tip::
-   ``calculate_total_sum_of_items_in_shopping_cart_and_apply_discount_and_add_tax`` -> ``calculate_final_cost``
+   calculate_total_sum_of_items_in_shopping_cart_and_apply_discount_and_add_tax -> **calculate_final_cost**
 
-   ``employeeSalaryIncreaseAfterTaxAndDeductions`` -> ``netSalary``
+   employeeSalaryIncreaseAfterTaxAndDeductions -> **netSalary**
 
-   ``Plan for project execution based on risk analysis and accounting for internal factors`` -> ``Adaptive project execution plan``
+   Plan for project execution based on risk analysis and accounting for internal factors -> **Adaptive project execution plan**
 
-   ``introduction_to_the_card_issuance_process`` -> ``card_issue_intro``
+   introduction_to_the_card_issuance_process -> **card_issue_intro**
 
 Identify the main keywords or concepts most important for describing an object or process. 
 Then use them in a concise format. If details or specifications are not crucial for understanding, they can be simplified or excluded from the name. 
-There's also a technique known as ``shrinking to meaning`` or ``shrinking to the limit``. 
+There's also a technique known as **shrinking to sense** or **reducing to ultimate meaning**. 
 It involves systematically removing words or parts of a phrase while preserving the core meaning, stopping when further removal would cause loss of sense.
 
 .. tip::
-  For instance, let's consider the lengthy title "Adaptive project execution plan based on risk analysis and internal factors". 
-  You can progressively remove words:
-    "Adaptive project execution plan based on risk analysis and internal factors"
-    "Adaptive project execution plan based on risk analysis"
-    "Adaptive project execution plan"
-    "Project execution plan"
+   For instance, let's consider the lengthy title "Adaptive project execution plan based on risk analysis and internal factors". 
+   You can progressively remove words:
+   "Adaptive project execution plan based on risk analysis and internal factors"
+
+   "Adaptive project execution plan based on risk analysis"
+    
+   "Adaptive project execution plan"
+    
+   "Project execution plan"
+
   Continuing this way until the essential meaning is retained.
 
 
