@@ -1,8 +1,8 @@
 Resource naming guide
-#####################
+###########
 
 Overview
-========
+**********
 
 Often, we need to give a name to this resource, a label that will help us understand and explain what it is.
 Resources, such as `files`, `servers`, `tables`, `fields`, `events` in web analytics, `documents`, `business concepts`, `terms`, `metrics`, etc  - represent elements or objects used in information systems or software for storing, processing, transmitting, or presenting data.
@@ -29,11 +29,11 @@ Assigning names to anything, from business to concepts and actions, can be a dif
 
 
 Naming issues
-=============
+**********
 
 
 Ambiguity and the problem of vocabulary
----------------------------------------
+===========
 
 No single word can be considered the **best** name - this phenomenon is referred to as the problem of vocabulary.
 Every natural language offers several ways to express any thought, and in particular, there are usually multiple words that can be used to denote the same object or concept. 
@@ -42,7 +42,7 @@ Furthermore, people are often surprised when this happens because what seems nat
 
 
 Homonymy, polysemy, and false cognates
---------------------------------------
+===========
 
 Sometimes, the same word can refer to different resources: 'bank' can mean a financial institution or the edge of a river. 
 When two words have the same spelling but different meanings, they are called homographs; if they are also pronounced the same way, they are homonyms. 
@@ -54,7 +54,7 @@ When a word in one language has a different meaning and refers to different reso
 
 
 Names with unwanted associations
---------------------------------
+===========
 
 False cognates can lead to poor names and marketing mistakes. 
 
@@ -70,14 +70,14 @@ Ignoring biases and preconceptions about names and identifiers might seem harmle
 
 
 Discrimination
---------------
+===========
 
 Ordering resources alphabetically, while seemingly fair, can lead to systematic discrimination in favor of names starting with letters at the beginning of the alphabet. 
 This creates a context where resources listed earlier might receive an advantage, ignoring the merits and potential of others.
 
 
 Names that assume impermanent attributes
-----------------------------------------
+===========
 
 Many resources are given names based on attributes that can become problematic later if the value or interpretation of the attribute changes.
 
@@ -91,7 +91,7 @@ Some companies use dates or years in their names to indicate a future orientatio
 
 
 The semantic gap
-----------------
+===========
 
 The semantic gap refers to a lack of understanding of information stored in data. 
 This lack of understanding can vary among users or between users and data creators.
@@ -102,20 +102,22 @@ We prefer names that describe the content of the image, for instance, ``MyBeauti
 
 
 Long names
-----------
+===========
 
 Names that are excessively long can be inconvenient to use and visually clutter the code. 
 Adding unnecessary details to object names can lead to redundancy and confusion.
 
 
 Inconsistency
--------------
+===========
 
 The lack of a unified naming style leads to confusion within a project or across projects.
 
 .. note::
    In 2008, Last.fm's music recommendations employee Richard Jones compiled a list of the 100 most frequently described recordings of Guns N' Roses' cover of Bob Dylan's song 'Knockin' on Heaven's Door
    
+
+Top 25 Representations of "Knockin' On Heaven's Door"
 
 .. code-block:: concole
    :caption: Top 25 Representations of "Knockin' On Heaven's Door"
@@ -163,7 +165,7 @@ The inconsistent use of upper and lower case makes names less readable and harde
 
 
 Unclear Abbreviations and Acronyms
-----------------------------------
+===========
 
 The problem of unclear abbreviations arises when projects or teams use abbreviations or acronyms that are not explained or widely known.
 This can lead to misunderstanding among team members, confusion within the project, and even conflicts due to different interpretations of the abbreviations.
@@ -181,7 +183,7 @@ may be unclear to non-professionals or newcomers
    
 
 Ambiguous Names
----------------
+===========
 
 Names that fail to reflect the essence of a resource or object can impede understanding, usage, and lead to errors or delays in work.
 
@@ -197,11 +199,11 @@ Names that fail to reflect the essence of a resource or object can impede unders
 
 
 Choosing good names and identifiers
-===================================
+**********
 
 
 Make names informative
-----------------------
+===========
 
 The most fundamental principle in naming is to select informative names that facilitate understanding and memorization.
 Use names that are intuitive and easy to remember.
@@ -209,7 +211,7 @@ Avoid using generic or universal names.
 
 
 Avoid overly long names
------------------------
+===========
 
 This principle is based on the idea that excessively long names complicate information perception and can reduce work efficiency. 
 Additionally, shorter names minimize the risk of duplicates from word rearrangement.
