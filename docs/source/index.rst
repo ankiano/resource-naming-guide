@@ -331,6 +331,20 @@ However, established domain-specific abbreviations or acronyms that are universa
 * KPI -> key performance indicator
 * CRM -> customer relationship management
 
+Document your names
+**********
+| When necessary, explain the names and their meanings to the team members. 
+| The technique of documenting names involves providing explanations for names, especially if they might not be obvious or contain specific meanings. 
+| This helps stakeholders better understand the context and purpose of usage.
+
+For instance:
+``calculate_tax``
+  The name itself might be good, but adding a description clarifies which tax is being calculated.
+``order_status``
+  Adding a description can specify possible status values and their meanings.
+``employee_salary``
+  A more detailed explanation could include how an employee's salary is calculated and what parameters are considered.
+
 .. toctree::
   :caption: Table of Contents
   :numbered:
