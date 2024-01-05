@@ -115,7 +115,6 @@ The lack of a unified naming style leads to confusion within a project or across
 
 .. note::
    In 2008, Last.fm's music recommendations employee Richard Jones compiled a list of the 100 most frequently described recordings of Guns N' Roses' cover of Bob Dylan's song 'Knockin' on Heaven's Door
-   
 
 Top 25 Representations of "Knockin' On Heaven's Door"
 
