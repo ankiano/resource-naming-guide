@@ -6,7 +6,8 @@ Overview
 
 | Often, we need to give a name to this resource, a label that will help us understand and explain what it is.
 | Resources, such as `files`, `servers`, `tables`, `fields`, `events` in web analytics, `documents`, `business concepts`, `terms`, `metrics`, etc  - represent elements or objects used in information systems or software for storing, processing, transmitting, or presenting data.
-| Resources need names so that we can find, describe, reuse, refer to, or link to them, record who owns them, and interact with them in other ways. But naming is not just a matter of assigning a sequence of characters. 
+| Resources need names so that we can find, describe, reuse, refer to, or link to them, record who owns them, and interact with them in other ways. 
+| But naming is not just a matter of assigning a sequence of characters. 
 | In many domains, names assigned to resources also depend on or are limited by rules, industry practice, or technological considerations.
 | We will discuss some naming issues and principles that help us name things in useful ways.
 
@@ -16,9 +17,9 @@ Why is this so important?
 | This can help not only in precise identification but also in creating a deeper awareness of relationships and interactions in the studied subject area.
 
 .. note::
-   "Now the Lord God had formed out of the ground all the wild animals and all the birds in the sky. 
-   He brought them to the man to see what he would name them; and whatever the man called each living creature, that was its name."
-   Genesis 2:19
+   | "Now the Lord God had formed out of the ground all the wild animals and all the birds in the sky. 
+   | He brought them to the man to see what he would name them; and whatever the man called each living creature, that was its name."
+   | *Genesis 2:19*
 
    | Assigning names in this context has symbolic significance. In ancient societies, a name was extremely important.
    | By giving Adam the ability to name the animals, God demonstrates trust and faith in his ability to perceive and understand the world. 
@@ -44,9 +45,10 @@ Ambiguity and the problem of vocabulary
 Homonymy, polysemy, and false cognates
 ===========
 
-| Sometimes, the same word can refer to different resources: 'bank' can mean a financial institution or the edge of a river. 
-| When two words have the same spelling but different meanings, they are called homographs; if they are also pronounced the same way, they are homonyms. 
-| When different meanings of homographs are related, it's called polysemy.
+| Sometimes, the same word can refer to different resources: ``bank`` can mean a financial institution or the edge of a river. 
+| When two words have the same spelling but different meanings, they are called `homographs`.
+| If they are also pronounced the same way, they are `homonyms`. 
+| When different meanings of homographs are related, it's called `polysemy`.
 
 | Resources with homonymous and polysemous names are sometimes incorrectly identified, especially by automated processes that cannot use common sense or context. 
 | When a word in one language has a different meaning and refers to different resources in another language, it can be funny or catastrophically harmful. 
@@ -163,7 +165,7 @@ The inconsistent use of upper and lower case makes names less readable and harde
         └── your_resource
 
 
-Unclear Abbreviations and Acronyms
+Unclear abbreviations and acronyms
 ===========
 
 | The problem of unclear abbreviations arises when projects or teams use abbreviations or acronyms that are not explained or widely known.
@@ -172,12 +174,12 @@ Unclear Abbreviations and Acronyms
 For example, the abbreviation **JK** might refer to an employee, John Kowalski, but not everyone will understand it. **PM** could mean Project Manager or Product Marketing, causing confusion in context.
 
 Acronyms like:
-   * ``PDCA`` (Plan-Do-Check-Act)
-   * ``TPS`` (Transactions Per Second)
-   * ``SPA`` (Single Page Application) 
-   * ``DNA`` (Deoxyribonucleic Acid)
-   * ``STEM`` (Science, Technology, Engineering, Mathematics)
-   * ``CAGR`` (Compound Annual Growth Rate)
+   * ``PDCA`` -> Plan-Do-Check-Act
+   * ``TPS`` -> Transactions Per Second
+   * ``SPA`` -> Single Page Application
+   * ``DNA`` -> Deoxyribonucleic Acid
+   * ``STEM`` -> Science, Technology, Engineering, Mathematics
+   * ``CAGR`` -> Compound Annual Growth Rate
 may be unclear to non-professionals or newcomers
    
 
@@ -259,16 +261,17 @@ Consistency
 | Applying naming standards that adhere to specific rules and conventions aids in creating uniform and easily readable code or a system, which, in turn, facilitates teamwork and information exchange among developers, analysts, and other project participants.
 
 Rules and styles can pertain to format only, for instance, choosing one of the standards for compound names:
-| ``camelCase``
-|   Each new word starts with a capital letter, without spaces. Example: myVariableName, calculateInterestRate.
-| ``PascalCase``
-|   Similar to camelCase, but the first letter is also capitalized. Commonly used for class and data type names. Example: MyClass, CalculateInterest.
-| ``snake_case``
-|   Words are separated by an underscore, usually in all lowercase letters. Example: my_variable_name, calculate_interest_rate.
-| ``kebab-case``
-|   Words are separated by a hyphen, generally in all lowercase. Often used in URLs and file names. Example: my-variable-name, calculate-interest-rate.
-| ``MixedCase``
-|   Represents a mixed style where different parts of words may have different cases. Example: iOSDevelopment, JavaScriptProgramming.
+
+``camelCase``
+  Each new word starts with a capital letter, without spaces. Example: myVariableName, calculateInterestRate.
+``PascalCase``
+  Similar to camelCase, but the first letter is also capitalized. Commonly used for class and data type names. Example: MyClass, CalculateInterest.
+``snake_case``
+  Words are separated by an underscore, usually in all lowercase letters. Example: my_variable_name, calculate_interest_rate.
+``kebab-case``
+  Words are separated by a hyphen, generally in all lowercase. Often used in URLs and file names. Example: my-variable-name, calculate-interest-rate.
+``MixedCase``
+  Represents a mixed style where different parts of words may have different cases. Example: iOSDevelopment, JavaScriptProgramming.
 
 Rules can also pertain to the order of compound words and their suffixes and prefixes.
 
@@ -342,12 +345,13 @@ Document your names
 | This helps stakeholders better understand the context and purpose of usage.
 
 For instance:
-| ``calculate_tax``
-|   The name itself might be good, but adding a description clarifies which tax is being calculated.
-| ``order_status``
-|   Adding a description can specify possible status values and their meanings.
-| ``employee_salary``
-|   A more detailed explanation could include how an employee's salary is calculated and what parameters are considered.
+
+``calculate_tax``
+  The name itself might be good, but adding a description clarifies which tax is being calculated.
+``order_status``
+  Adding a description can specify possible status values and their meanings.
+``employee_salary``
+  A more detailed explanation could include how an employee's salary is calculated and what parameters are considered.
 
 
 Use controlled vocabularies
@@ -369,8 +373,8 @@ Context
 
 | Use language specific to your business domain or knowledge familiar to your users or stakeholders. 
 | For example:
-| Oxford, Dictionary of Finance and Banking
-| Forbes, A Glossary Of Basic Banking Terms
+* Oxford, Dictionary of Finance and Banking
+* Forbes, A Glossary Of Basic Banking Terms
 
 
 Allow aliasing
@@ -406,14 +410,14 @@ Use reserved words cautiously
 | These words are used for defining conditions, loops, functions, classes, exceptions, and various aspects of a program.
 
 
-Versioning, modifications, and dates:
+Versioning, modifications, and dates
 **********
 
 Incorporating versions into document names or dates into file names can assist in identifying chronological order and aid in search and sorting.
 
 | It's recommended to use dates in the ISO8601 standard format ``YYYY-MM-DD``. 
 | For instance:
-| "2021-08-02 v2 Policies and Procedures"
+| "2021-08-02 v2 Policies and procedures"
 
 Additionally, different stages or statuses of a document or process can be denoted such as ``vDraft``, ``vFinal``, ``vExecuted``, ``vPreRead``, etc.
 
