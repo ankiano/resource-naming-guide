@@ -302,7 +302,13 @@ For complex systems like data repositories, conventions are often developed usin
   | For example: ``FIRST``, ``LAST``, ``NEXT``, ``BEGIN``, ``END``, ``MAX``, ``MIN``
 
 For complex attribute (field) names in a database table, the sequence might look like this:
-<``Modifier 1``> + <``Prime Word``> + <``Modifier 2``> + <``Class Word``>
+
+.. figure:: /_static/attribute.png
+   :width: 150%
+   :align: center
+   :alt: attribute naming rule
+
+The root part of the attribute name is the class word, which classifies the type of information being represented by the attribute.
 
 e.g.: PERMANENT_EMPLOYEE_LAST_NAME
   | NAME - Class Word
@@ -313,6 +319,17 @@ e.g.: PERMANENT_EMPLOYEE_LAST_NAME
 | In data repositories, dictionaries of abbreviations and acronyms might be used, and then the field name could appear as PERM_EMPL_LST_NAME. 
 | This technique was previously employed when there were stricter limitations on name lengths in databases - for instance, in Oracle, there was a 30-character limit.
 
+Avoid Abbreviations and Acronyms
+**********
+| Names should be spelled out entirely whenever possible instead of using abbreviations or acronyms. 
+| Abbreviations can cause confusion or ambiguity and might not be universally understood by all team members or stakeholders, especially newcomers.
+
+However, established domain-specific abbreviations or acronyms that are universally clear within the field are permissible:
+
+* API -> application programming interface
+* ROI -> return on investment
+* KPI -> key performance indicator
+* CRM -> customer relationship management
 
 .. toctree::
   :caption: Table of Contents
