@@ -223,16 +223,13 @@ Avoid overly long names
    | **calculate_final_cost**
 
    | employeeSalaryIncreaseAfterTaxAndDeductions
-   | ↓
-   | **netSalary**
+   | └── **netSalary**
 
    | Plan for project execution based on risk analysis and accounting for internal factors
-   | ↓
-   | **Adaptive project execution plan**
+   | └── **Adaptive project execution plan**
 
    | introduction_to_the_card_issuance_process
-   | ↓
-   | **card_issue_intro**
+   | └── **card_issue_intro**
 
 | Identify the main keywords or concepts most important for describing an object or process. 
 | Then use them in a concise format. If details or specifications are not crucial for understanding, they can be simplified or excluded from the name. 
@@ -243,14 +240,10 @@ Avoid overly long names
    | You can progressively remove words:
    | For instance, let's consider the lengthy title
    | Adaptive project execution plan based on risk analysis and internal factors
-   | ↓
-   | Adaptive project execution plan based on risk analysis and internal factors
-   | ↓
-   | Adaptive project execution plan based on risk analysis
-   | ↓
-   | Adaptive project execution plan
-   | ↓
-   | Project execution plan
+   | └── Adaptive project execution plan based on risk analysis and internal factors
+   |     └── Adaptive project execution plan based on risk analysis
+   |         └── Adaptive project execution plan
+   |             └── Project execution plan
 
   Continuing this way until the essential meaning is retained.
 
