@@ -7,7 +7,7 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'resource-naming-guide'
-copyright = '2023, ankiano'
+copyright = '2024, ankiano'
 author = 'ankiano'
 release = '0.0.1'
 
