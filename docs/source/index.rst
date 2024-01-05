@@ -218,10 +218,21 @@ Avoid overly long names
 | It's important to condense the name to its core meaning by removing unnecessary words or phrases.
 
 .. tip::
-   | calculate_total_sum_of_items_in_shopping_cart_and_apply_discount_and_add_tax -> **calculate_final_cost**
-   | employeeSalaryIncreaseAfterTaxAndDeductions -> **netSalary**
-   | Plan for project execution based on risk analysis and accounting for internal factors -> **Adaptive project execution plan**
-   | introduction_to_the_card_issuance_process -> **card_issue_intro**
+   | calculate_total_sum_of_items_in_shopping_cart_and_apply_discount_and_add_tax
+   | ↓
+   | **calculate_final_cost**
+
+   | employeeSalaryIncreaseAfterTaxAndDeductions
+   | ↓
+   | **netSalary**
+
+   | Plan for project execution based on risk analysis and accounting for internal factors
+   | ↓
+   | **Adaptive project execution plan**
+
+   | introduction_to_the_card_issuance_process
+   | ↓
+   | **card_issue_intro**
 
 | Identify the main keywords or concepts most important for describing an object or process. 
 | Then use them in a concise format. If details or specifications are not crucial for understanding, they can be simplified or excluded from the name. 
@@ -229,13 +240,17 @@ Avoid overly long names
 | It involves systematically removing words or parts of a phrase while preserving the core meaning, stopping when further removal would cause loss of sense.
 
 .. tip::
-   | For instance, let's consider the lengthy title
-   | **"Adaptive project execution plan based on risk analysis and internal factors"** 
    | You can progressively remove words:
-   | "Adaptive project execution plan based on risk analysis and internal factors"
-   | "Adaptive project execution plan based on risk analysis"   
-   | "Adaptive project execution plan"    
-   | "Project execution plan"
+   | For instance, let's consider the lengthy title
+   | Adaptive project execution plan based on risk analysis and internal factors
+   | ↓
+   | Adaptive project execution plan based on risk analysis and internal factors
+   | ↓
+   | Adaptive project execution plan based on risk analysis
+   | ↓
+   | Adaptive project execution plan
+   | ↓
+   | Project execution plan
 
   Continuing this way until the essential meaning is retained.
 
