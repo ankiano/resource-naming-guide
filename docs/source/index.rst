@@ -5,7 +5,7 @@ Overview
 ========
 
 Often, we need to give a name to this resource, a label that will help us understand and explain what it is.
-Resources, such as `files`, `servers`, `tables`, `fields`, `events` in web analytics, `documents`, `business concepts`, `terms`, `mitrics`, etc  - represent elements or objects used in information systems or software for storing, processing, transmitting, or presenting data.
+Resources, such as `files`, `servers`, `tables`, `fields`, `events` in web analytics, `documents`, `business concepts`, `terms`, `metrics`, etc  - represent elements or objects used in information systems or software for storing, processing, transmitting, or presenting data.
 Resources need names so that we can find, describe, reuse, refer to, or link to them, record who owns them, and interact with them in other ways. But naming is not just a matter of assigning a sequence of characters. 
 In many domains, names assigned to resources also depend on or are limited by rules, industry practice, or technological considerations.
 We will discuss some naming issues and principles that help us name things in useful ways.
@@ -16,7 +16,8 @@ Naming can be related to our understanding of the essence of things, and this is
 This can help not only in precise identification but also in creating a deeper awareness of relationships and interactions in the studied subject area.
 
 .. note::
-   "Now the Lord God had formed out of the ground all the wild animals and all the birds in the sky. He brought them to the man to see what he would name them; and whatever the man called each living creature, that was its name."
+   "Now the Lord God had formed out of the ground all the wild animals and all the birds in the sky. 
+   He brought them to the man to see what he would name them; and whatever the man called each living creature, that was its name."
    Genesis 2:19
 
    Assigning names in this context has symbolic significance. In ancient societies, a name was extremely important.
@@ -115,32 +116,35 @@ The lack of a unified naming style leads to confusion within a project or across
 .. note::
    In 2008, Last.fm's music recommendations employee Richard Jones compiled a list of the 100 most frequently described recordings of Guns N' Roses' cover of Bob Dylan's song 'Knockin' on Heaven's Door
    
-   Top 25 Representations of "Knockin' On Heaven's Door":
-   - Guns N' Roses - Knockin' On Heaven's Door
-   - Guns N' Roses - Knocking On Heavens Door
-   - Guns 'N' Roses - Knockin On Heaven's Door
-   - Guns N' Roses - Knockin On Heavens Door
-   - Guns N' Roses - Knockin' On Heavens Door
-   - Guns N'roses - knockin on heavens door
-   - Guns N' Roses - Knocking On Heaven's Door
-   - Guns N Roses - Knockin' On Heaven's Door
-   - Guns N Roses - Knockin On Heavens Door
-   - Guns And Roses - Knocking On Heavens Door
-   - Guns Nroses - Knockin On Heavens Door
-   - Guns'n' Roses - Knockin' On Heaven's Door
-   - Guns N Roses - Knocking On Heavens Door
-   - Guns'n'Roses - Knockin' On Heaven's Door
-   - Guns 'N Roses - Knockin' On Heaven's Door
-   - Guns & Roses - Knockin' on Heaven's Door
-   - Guns N'roses - Knockin' On Heaven's Door
-   - Guns and Roses - Knockin' On Heaven's Door
-   - Guns n Roses - Knocking On Heavens Door
-   - Guns 'n' Roses - Knockin' On Heavens Door
-   - Aerosmith - Knocking On Heaven's Door
-   - Guns 'n Roses - Knocking On Heaven's Door
-   - Guns 'n' Roses - Knocking On Heavens Door
-   - Guns N Roses - Knocking On Heaven's Door
-   - Guns N' Roses - Heaven's Knockin On Door
+
+.. code-block:: concole
+    :caption: Top 25 Representations of "Knockin' On Heaven's Door":
+    :linenos:   
+    Guns N' Roses - Knockin' On Heaven's Door
+    Guns N' Roses - Knocking On Heavens Door
+    Guns 'N' Roses - Knockin On Heaven's Door
+    Guns N' Roses - Knockin On Heavens Door
+    Guns N' Roses - Knockin' On Heavens Door
+    Guns N'roses - knockin on heavens door
+    Guns N' Roses - Knocking On Heaven's Door
+    Guns N Roses - Knockin' On Heaven's Door
+    Guns N Roses - Knockin On Heavens Door
+    Guns And Roses - Knocking On Heavens Door
+    Guns Nroses - Knockin On Heavens Door
+    Guns'n' Roses - Knockin' On Heaven's Door
+    Guns N Roses - Knocking On Heavens Door
+    Guns'n'Roses - Knockin' On Heaven's Door
+    Guns 'N Roses - Knockin' On Heaven's Door
+    Guns & Roses - Knockin' on Heaven's Door
+    Guns N'roses - Knockin' On Heaven's Door
+    Guns and Roses - Knockin' On Heaven's Door
+    Guns n Roses - Knocking On Heavens Door
+    Guns 'n' Roses - Knockin' On Heavens Door
+    Aerosmith - Knocking On Heaven's Door
+    Guns 'n Roses - Knocking On Heaven's Door
+    Guns 'n' Roses - Knocking On Heavens Door
+    Guns N Roses - Knocking On Heaven's Door
+    Guns N' Roses - Heaven's Knockin On Door
 
 The inconsistent use of upper and lower case makes names less readable and harder to identify.
 
@@ -167,12 +171,12 @@ This can lead to misunderstanding among team members, confusion within the proje
 For example, the abbreviation 'JK' might refer to an employee, John Kowalski, but not everyone will understand it. 'PM' could mean Project Manager or Product Marketing, causing confusion in context.
 
 Acronyms like:
-- PDCA (Plan-Do-Check-Act)
-- TPS (Transactions Per Second)
-- SPA (Single Page Application) 
-- DNA (Deoxyribonucleic Acid)
-- STEM (Science, Technology, Engineering, Mathematics)
-- CAGR - Compound Annual Growth Rate)
+   * PDCA (Plan-Do-Check-Act)
+   * TPS (Transactions Per Second)
+   * SPA (Single Page Application) 
+   * DNA (Deoxyribonucleic Acid)
+   * STEM (Science, Technology, Engineering, Mathematics)
+   * CAGR - Compound Annual Growth Rate)
 may be unclear to non-professionals or newcomers
    
 
@@ -237,7 +241,7 @@ It involves systematically removing words or parts of a phrase while preserving 
 
 
 .. toctree::
-   :maxdepth: 4
+   :maxdepth: 3
    :caption: Table of Contents
 
    index
