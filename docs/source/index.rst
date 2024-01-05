@@ -116,31 +116,31 @@ The lack of a unified naming style leads to confusion within a project or across
    In 2008, Last.fm's music recommendations employee Richard Jones compiled a list of the 100 most frequently described recordings of Guns N' Roses' cover of Bob Dylan's song 'Knockin' on Heaven's Door
    
    Top 25 Representations of "Knockin' On Heaven's Door":
-   Guns N' Roses - Knockin' On Heaven's Door
-   Guns N' Roses - Knocking On Heavens Door
-   Guns 'N' Roses - Knockin On Heaven's Door
-   Guns N' Roses - Knockin On Heavens Door
-   Guns N' Roses - Knockin' On Heavens Door
-   Guns N'roses - knockin on heavens door
-   Guns N' Roses - Knocking On Heaven's Door
-   Guns N Roses - Knockin' On Heaven's Door
-   Guns N Roses - Knockin On Heavens Door
-   Guns And Roses - Knocking On Heavens Door
-   Guns Nroses - Knockin On Heavens Door
-   Guns'n' Roses - Knockin' On Heaven's Door
-   Guns N Roses - Knocking On Heavens Door
-   Guns'n'Roses - Knockin' On Heaven's Door
-   Guns 'N Roses - Knockin' On Heaven's Door
-   Guns & Roses - Knockin' on Heaven's Door
-   Guns N'roses - Knockin' On Heaven's Door
-   Guns and Roses - Knockin' On Heaven's Door
-   Guns n Roses - Knocking On Heavens Door
-   Guns 'n' Roses - Knockin' On Heavens Door
-   Aerosmith - Knocking On Heaven's Door
-   Guns 'n Roses - Knocking On Heaven's Door
-   Guns 'n' Roses - Knocking On Heavens Door
-   Guns N Roses - Knocking On Heaven's Door
-   Guns N' Roses - Heaven's Knockin On Door
+   - Guns N' Roses - Knockin' On Heaven's Door
+   - Guns N' Roses - Knocking On Heavens Door
+   - Guns 'N' Roses - Knockin On Heaven's Door
+   - Guns N' Roses - Knockin On Heavens Door
+   - Guns N' Roses - Knockin' On Heavens Door
+   - Guns N'roses - knockin on heavens door
+   - Guns N' Roses - Knocking On Heaven's Door
+   - Guns N Roses - Knockin' On Heaven's Door
+   - Guns N Roses - Knockin On Heavens Door
+   - Guns And Roses - Knocking On Heavens Door
+   - Guns Nroses - Knockin On Heavens Door
+   - Guns'n' Roses - Knockin' On Heaven's Door
+   - Guns N Roses - Knocking On Heavens Door
+   - Guns'n'Roses - Knockin' On Heaven's Door
+   - Guns 'N Roses - Knockin' On Heaven's Door
+   - Guns & Roses - Knockin' on Heaven's Door
+   - Guns N'roses - Knockin' On Heaven's Door
+   - Guns and Roses - Knockin' On Heaven's Door
+   - Guns n Roses - Knocking On Heavens Door
+   - Guns 'n' Roses - Knockin' On Heavens Door
+   - Aerosmith - Knocking On Heaven's Door
+   - Guns 'n Roses - Knocking On Heaven's Door
+   - Guns 'n' Roses - Knocking On Heavens Door
+   - Guns N Roses - Knocking On Heaven's Door
+   - Guns N' Roses - Heaven's Knockin On Door
 
 The inconsistent use of upper and lower case makes names less readable and harder to identify.
 
@@ -166,13 +166,13 @@ This can lead to misunderstanding among team members, confusion within the proje
 
 For example, the abbreviation 'JK' might refer to an employee, John Kowalski, but not everyone will understand it. 'PM' could mean Project Manager or Product Marketing, causing confusion in context.
 
-Acronyms like 
-PDCA (Plan-Do-Check-Act)
-TPS (Transactions Per Second)
-SPA (Single Page Application) 
-DNA (Deoxyribonucleic Acid)
-STEM (Science, Technology, Engineering, Mathematics)
-CAGR - Compound Annual Growth Rate)
+Acronyms like:
+- PDCA (Plan-Do-Check-Act)
+- TPS (Transactions Per Second)
+- SPA (Single Page Application) 
+- DNA (Deoxyribonucleic Acid)
+- STEM (Science, Technology, Engineering, Mathematics)
+- CAGR - Compound Annual Growth Rate)
 may be unclear to non-professionals or newcomers
    
 
@@ -182,14 +182,14 @@ Ambiguous Names
 Names that fail to reflect the essence of a resource or object can impede understanding, usage, and lead to errors or delays in work.
 
 ``temp``
-This name might be used for temporary variables in code, tables, or directories, but it doesn't provide information about what exactly is stored in this variable or what it's used for.
+  This name might be used for temporary variables in code, tables, or directories, but it doesn't provide information about what exactly is stored in this variable or what it's used for.
 ``misc``
-An abbreviation for 'miscellaneous,' often used to group various items. However, this name is not informative, failing to indicate the specific components or purpose of this group.
+  An abbreviation for 'miscellaneous,' often used to group various items. However, this name is not informative, failing to indicate the specific components or purpose of this group.
 ``data``
-The name 'data' might be used for various datasets, but by itself, it doesn't convey the nature or format of these data.
+  The name 'data' might be used for various datasets, but by itself, it doesn't convey the nature or format of these data.
 ``new``
-These names can become problematic over time as they remain undefined and become less informative when the 'newness' fades or another version emerges. 
-In some cases, you might encounter abbreviations like 'new_new' or 'newer,' indicating something was new but has now become outdated or replaced by a newer version.
+  These names can become problematic over time as they remain undefined and become less informative when the 'newness' fades or another version emerges. 
+  In some cases, you might encounter abbreviations like 'new_new' or 'newer,' indicating something was new but has now become outdated or replaced by a newer version.
 
 
 Choosing good names and identifiers
@@ -214,8 +214,11 @@ It means it's important to condense the name to its core meaning by removing unn
 
 .. tip::
    ``calculate_total_sum_of_items_in_shopping_cart_and_apply_discount_and_add_tax`` -> ``calculate_final_cost``
+
    ``employeeSalaryIncreaseAfterTaxAndDeductions`` -> ``netSalary``
+
    ``Plan for project execution based on risk analysis and accounting for internal factors`` -> ``Adaptive project execution plan``
+
    ``introduction_to_the_card_issuance_process`` -> ``card_issue_intro``
 
 Identify the main keywords or concepts most important for describing an object or process. 
