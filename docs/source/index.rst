@@ -247,6 +247,73 @@ Avoid overly long names
 
   Continuing this way until the essential meaning is retained.
 
+
+Consistency
+**********
+
+| Consistency is a characteristic that reflects the degree of stability, uniformity, or constancy in something. 
+| Maintaining a unified naming style throughout a project or organization helps achieve this. 
+| Applying naming standards that adhere to specific rules and conventions aids in creating uniform and easily readable code or a system, which, in turn, facilitates teamwork and information exchange among developers, analysts, and other project participants.
+
+Rules and styles can pertain to format only, for instance, choosing one of the standards for compound names:
+``camelCase``
+  Each new word starts with a capital letter, without spaces. Example: myVariableName, calculateInterestRate.
+``PascalCase``
+  Similar to camelCase, but the first letter is also capitalized. Commonly used for class and data type names. Example: MyClass, CalculateInterest.
+``snake_case``
+  Words are separated by an underscore, usually in all lowercase letters. Example: my_variable_name, calculate_interest_rate.
+``kebab-case``
+  Words are separated by a hyphen, generally in all lowercase. Often used in URLs and file names. Example: my-variable-name, calculate-interest-rate.
+``MixedCase``
+  Represents a mixed style where different parts of words may have different cases. Example: iOSDevelopment, JavaScriptProgramming.
+
+Rules can also pertain to the order of compound words and their suffixes and prefixes. 
+.. tip::
+  | For example, consistently using the word 'intro' at the end when naming screens in a mobile application: 
+  | `splash_intro`, `select_country_intro`, `select_product_intro`, `verify_income_intro`, `account_app_intro`, `card_issue_intro`, etc. 
+  | It's essential to maintain uniformity.
+
+For complex systems like data repositories, conventions are often developed using semantic rules to explain the object's meaning by its name.
+
+| The *COAST GUARD DATA ELEMENT NAMING STANDARDS* serve as an excellent example.
+| The data object name consists of terms divided into three categories: 
+* the prime word
+* classifying word
+* and modifiers (determiners).
+
+``Prime Words``:
+  | Nouns or phrases describing the subject or primary meaning of the name.
+  | Show the data element's place in the logical context of the information model.
+  | For example: ``PARTY``, ``DEAL``, ``CLIENT``, ``EMPLOYEE``, ``CURRENCY``
+  | The prime word imparts meaning to the attribute name, providing the right context for the modifier and classifying words. 
+  | Although there is no standard list of prime words, terms commonly suitable as subjects are usually nouns, representing common things for any organization.
+  | Furthermore, prime words may consist of multiple terms, but brevity is crucial to accommodate the rest of the nominal group within a reasonable name size.
+
+``Classifying Words``:
+  | Indicate categorical differentiation or classification of information.
+  | Describe the main data category associated with the information element.
+  | For example: ``DATE``, ``AMOUNT``, ``QUANTITY``, ``CODE``, ``NAME``, ``DESCRIPTION``, ``IDENTIFIER``, ``RATE``
+
+``Modifiers`` (Determiners):
+  | Add a description contained in the prime word and classifying words.
+  | Provide clarity and uniqueness to the data object name.
+  | Adjust the prime word and classifying words.
+  | Limit the meaning of the classifying words and prime words.
+  | For example: ``FIRST``, ``LAST``, ``NEXT``, ``BEGIN``, ``END``, ``MAX``, ``MIN``
+
+For complex attribute (field) names in a database table, the sequence might look like this:
+<``Modifier 1``> + <``Prime Word``> + <``Modifier 2``> + <``Class Word``>
+
+e.g.: PERMANENT_EMPLOYEE_LAST_NAME
+  | NAME - Class Word
+  | LAST - Modifier 2
+  | EMPLOYEE - Prime Word
+  | PERMANENT - Modifier 1
+
+| In data repositories, dictionaries of abbreviations and acronyms might be used, and then the field name could appear as PERM_EMPL_LST_NAME. 
+| This technique was previously employed when there were stricter limitations on name lengths in databases - for instance, in Oracle, there was a 30-character limit.
+
+
 .. toctree::
   :caption: Table of Contents
   :numbered:
