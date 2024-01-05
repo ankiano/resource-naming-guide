@@ -116,36 +116,34 @@ The lack of a unified naming style leads to confusion within a project or across
 .. note::
    In 2008, Last.fm's music recommendations employee Richard Jones compiled a list of the 100 most frequently described recordings of Guns N' Roses' cover of Bob Dylan's song 'Knockin' on Heaven's Door
 
-Top 25 Representations of "Knockin' On Heaven's Door"
-
 .. code-block:: concole
    :caption: Top 25 Representations of "Knockin' On Heaven's Door"
    :linenos:   
-   Guns N' Roses - Knockin' On Heaven's Door
-   Guns N' Roses - Knocking On Heavens Door
-   Guns 'N' Roses - Knockin On Heaven's Door
-   Guns N' Roses - Knockin On Heavens Door
-   Guns N' Roses - Knockin' On Heavens Door
-   Guns N'roses - knockin on heavens door
-   Guns N' Roses - Knocking On Heaven's Door
-   Guns N Roses - Knockin' On Heaven's Door
-   Guns N Roses - Knockin On Heavens Door
-   Guns And Roses - Knocking On Heavens Door
-   Guns Nroses - Knockin On Heavens Door
-   Guns'n' Roses - Knockin' On Heaven's Door
-   Guns N Roses - Knocking On Heavens Door
-   Guns'n'Roses - Knockin' On Heaven's Door
-   Guns 'N Roses - Knockin' On Heaven's Door
-   Guns & Roses - Knockin' on Heaven's Door
-   Guns N'roses - Knockin' On Heaven's Door
-   Guns and Roses - Knockin' On Heaven's Door
-   Guns n Roses - Knocking On Heavens Door
-   Guns 'n' Roses - Knockin' On Heavens Door
-   Aerosmith - Knocking On Heaven's Door
-   Guns 'n Roses - Knocking On Heaven's Door
-   Guns 'n' Roses - Knocking On Heavens Door
-   Guns N Roses - Knocking On Heaven's Door
-   Guns N' Roses - Heaven's Knockin On Door
+    Guns N' Roses - Knockin' On Heaven's Door
+    Guns N' Roses - Knocking On Heavens Door
+    Guns 'N' Roses - Knockin On Heaven's Door
+    Guns N' Roses - Knockin On Heavens Door
+    Guns N' Roses - Knockin' On Heavens Door
+    Guns N'roses - knockin on heavens door
+    Guns N' Roses - Knocking On Heaven's Door
+    Guns N Roses - Knockin' On Heaven's Door
+    Guns N Roses - Knockin On Heavens Door
+    Guns And Roses - Knocking On Heavens Door
+    Guns Nroses - Knockin On Heavens Door
+    Guns'n' Roses - Knockin' On Heaven's Door
+    Guns N Roses - Knocking On Heavens Door
+    Guns'n'Roses - Knockin' On Heaven's Door
+    Guns 'N Roses - Knockin' On Heaven's Door
+    Guns & Roses - Knockin' on Heaven's Door
+    Guns N'roses - Knockin' On Heaven's Door
+    Guns and Roses - Knockin' On Heaven's Door
+    Guns n Roses - Knocking On Heavens Door
+    Guns 'n' Roses - Knockin' On Heavens Door
+    Aerosmith - Knocking On Heaven's Door
+    Guns 'n Roses - Knocking On Heaven's Door
+    Guns 'n' Roses - Knocking On Heavens Door
+    Guns N Roses - Knocking On Heaven's Door
+    Guns N' Roses - Heaven's Knockin On Door
 
 The inconsistent use of upper and lower case makes names less readable and harder to identify.
 
