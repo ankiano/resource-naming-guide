@@ -223,13 +223,16 @@ Avoid overly long names
    | **calculate_final_cost**
 
    | employeeSalaryIncreaseAfterTaxAndDeductions
-   | └── **netSalary**
+   | ↓
+   | **netSalary**
 
    | Plan for project execution based on risk analysis and accounting for internal factors
-   | └── **Adaptive project execution plan**
+   | ↓
+   | **Adaptive project execution plan**
 
    | introduction_to_the_card_issuance_process
-   | └── **card_issue_intro**
+   | ↓
+   | **card_issue_intro**
 
 | Identify the main keywords or concepts most important for describing an object or process. 
 | Then use them in a concise format. If details or specifications are not crucial for understanding, they can be simplified or excluded from the name. 
@@ -256,18 +259,19 @@ Consistency
 | Applying naming standards that adhere to specific rules and conventions aids in creating uniform and easily readable code or a system, which, in turn, facilitates teamwork and information exchange among developers, analysts, and other project participants.
 
 Rules and styles can pertain to format only, for instance, choosing one of the standards for compound names:
-``camelCase``
-  Each new word starts with a capital letter, without spaces. Example: myVariableName, calculateInterestRate.
-``PascalCase``
-  Similar to camelCase, but the first letter is also capitalized. Commonly used for class and data type names. Example: MyClass, CalculateInterest.
-``snake_case``
-  Words are separated by an underscore, usually in all lowercase letters. Example: my_variable_name, calculate_interest_rate.
-``kebab-case``
-  Words are separated by a hyphen, generally in all lowercase. Often used in URLs and file names. Example: my-variable-name, calculate-interest-rate.
-``MixedCase``
-  Represents a mixed style where different parts of words may have different cases. Example: iOSDevelopment, JavaScriptProgramming.
+| ``camelCase``
+|   Each new word starts with a capital letter, without spaces. Example: myVariableName, calculateInterestRate.
+| ``PascalCase``
+|   Similar to camelCase, but the first letter is also capitalized. Commonly used for class and data type names. Example: MyClass, CalculateInterest.
+| ``snake_case``
+|   Words are separated by an underscore, usually in all lowercase letters. Example: my_variable_name, calculate_interest_rate.
+| ``kebab-case``
+|   Words are separated by a hyphen, generally in all lowercase. Often used in URLs and file names. Example: my-variable-name, calculate-interest-rate.
+| ``MixedCase``
+|   Represents a mixed style where different parts of words may have different cases. Example: iOSDevelopment, JavaScriptProgramming.
 
-Rules can also pertain to the order of compound words and their suffixes and prefixes. 
+Rules can also pertain to the order of compound words and their suffixes and prefixes.
+
 .. tip::
   | For example, consistently using the word 'intro' at the end when naming screens in a mobile application: 
   | `splash_intro`, `select_country_intro`, `select_product_intro`, `verify_income_intro`, `account_app_intro`, `card_issue_intro`, etc. 
@@ -294,7 +298,7 @@ For complex systems like data repositories, conventions are often developed usin
   | Describe the main data category associated with the information element.
   | For example: ``DATE``, ``AMOUNT``, ``QUANTITY``, ``CODE``, ``NAME``, ``DESCRIPTION``, ``IDENTIFIER``, ``RATE``
 
-``Modifiers`` (Determiners):
+``Modifiers``:
   | Add a description contained in the prime word and classifying words.
   | Provide clarity and uniqueness to the data object name.
   | Adjust the prime word and classifying words.
@@ -311,15 +315,15 @@ For complex attribute (field) names in a database table, the sequence might look
 The root part of the attribute name is the class word, which classifies the type of information being represented by the attribute.
 
 e.g.: PERMANENT_EMPLOYEE_LAST_NAME
-  | NAME - Class Word
-  | LAST - Modifier 2
-  | EMPLOYEE - Prime Word
-  | PERMANENT - Modifier 1
+  | NAME -> Class Word
+  | LAST -> Modifier 2
+  | EMPLOYEE -> Prime Word
+  | PERMANENT -> Modifier 1
 
 | In data repositories, dictionaries of abbreviations and acronyms might be used, and then the field name could appear as PERM_EMPL_LST_NAME. 
 | This technique was previously employed when there were stricter limitations on name lengths in databases - for instance, in Oracle, there was a 30-character limit.
 
-Avoid Abbreviations and Acronyms
+Avoid abbreviations and acronyms
 **********
 | Names should be spelled out entirely whenever possible instead of using abbreviations or acronyms. 
 | Abbreviations can cause confusion or ambiguity and might not be universally understood by all team members or stakeholders, especially newcomers.
@@ -338,12 +342,89 @@ Document your names
 | This helps stakeholders better understand the context and purpose of usage.
 
 For instance:
-``calculate_tax``
-  The name itself might be good, but adding a description clarifies which tax is being calculated.
-``order_status``
-  Adding a description can specify possible status values and their meanings.
-``employee_salary``
-  A more detailed explanation could include how an employee's salary is calculated and what parameters are considered.
+| ``calculate_tax``
+|   The name itself might be good, but adding a description clarifies which tax is being calculated.
+| ``order_status``
+|   Adding a description can specify possible status values and their meanings.
+| ``employee_salary``
+|   A more detailed explanation could include how an employee's salary is calculated and what parameters are considered.
+
+
+Use controlled vocabularies
+**********
+
+| One way to encourage the creation of good names for specific resource areas or tasks is by establishing a controlled vocabulary. 
+| A controlled vocabulary is similar to a fixed or closed dictionary that includes terms used in a particular domain. 
+| It reduces the number of words used, minimizes synonymy and homonymy, eliminates undesirable associations, and retains a set of words with clearly defined meanings and rules for their use.
+
+| A controlled vocabulary is not merely a set of allowed words; it also includes their definitions and often determines the rules by which dictionary terms can be used and combined. 
+| Different domains may create specific controlled vocabularies for their needs, but it's essential for the vocabulary to be consistently used within that domain
+
+
+Context
+**********
+
+| When naming, consider the context in which names are used. 
+| Ensure that the names make sense within the larger system or process.
+
+| Use language specific to your business domain or knowledge familiar to your users or stakeholders. 
+| For example:
+| Oxford, Dictionary of Finance and Banking
+| Forbes, A Glossary Of Basic Banking Terms
+
+
+Allow aliasing
+**********
+
+A controlled vocabulary is highly beneficial for those who use it, but when designing an organizational system for others who might not use or understand it, you need to consider the diversity of words they might use when searching or describing resources.
+
+For instance, the official name of a particular fish species is *"Amphiprion ocellaris"*, but most people would search for it as *"clownfish"*, *"anemone fish"*, or even by its more popular name from the movie Nemo.
+
+A related mechanism used by search systems is spell-checking, where all misspellings are treated as aliases for the correct term ("Did you mean California?" when you typed Califorina").
+
+
+Make names unique or qualified
+**********
+
+| While a name refers to one resource, it doesn't mean that two names cannot be identical.
+| Each name or identifier should be unique within its accounting system. 
+| We can prevent or reduce conflicts by adding information about the namespace or domain from which names or identifiers are chosen, creating what is often referred to as fully qualified names.
+| For instance, in the United States, there are several dozen cities named "Springfield" and "Washington," but adding state codes to postal addresses distinguishes between them.
+
+
+Use reserved words cautiously
+**********
+
+| Avoid using reserved words in programming languages or other platform constraints.
+| Reserved words are those that hold special meaning within a programming language and cannot be used as variable names, function names, class names, and so on.
+| These words usually reflect the syntax and semantics of the language, defining the structure and logic of a program.
+
+| In SQL, reserved words include terms like ``SELECT``, ``FROM``, ``WHERE``, ``JOIN``, ``GROUP BY``, ``ORDER BY``, and more. 
+| These words are used for querying databases and manipulating data.
+
+| In Python, reserved words include ``if``, ``else``, ``while``, ``for``, ``import``, ``def``, ``class``, ``try``, ``except``, and others.
+| These words are used for defining conditions, loops, functions, classes, exceptions, and various aspects of a program.
+
+
+Versioning, modifications, and dates:
+**********
+
+Incorporating versions into document names or dates into file names can assist in identifying chronological order and aid in search and sorting.
+
+| It's recommended to use dates in the ISO8601 standard format ``YYYY-MM-DD``. 
+| For instance:
+| "2021-08-02 v2 Policies and Procedures"
+
+Additionally, different stages or statuses of a document or process can be denoted such as ``vDraft``, ``vFinal``, ``vExecuted``, ``vPreRead``, etc.
+
+
+Name testing
+**********
+
+| Test names for readability, clarity, and relevance to the context.
+
+| One way to avoid surprises is to engage people in collaborative efforts when choosing names for resources.
+| Information architects often use collective design methods for this purpose, such as card sorting or free placement.
 
 .. toctree::
   :caption: Table of Contents
