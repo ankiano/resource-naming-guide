@@ -4,26 +4,26 @@ Resource naming guide
 Overview
 **********
 
-Often, we need to give a name to this resource, a label that will help us understand and explain what it is.
-Resources, such as `files`, `servers`, `tables`, `fields`, `events` in web analytics, `documents`, `business concepts`, `terms`, `metrics`, etc  - represent elements or objects used in information systems or software for storing, processing, transmitting, or presenting data.
-Resources need names so that we can find, describe, reuse, refer to, or link to them, record who owns them, and interact with them in other ways. But naming is not just a matter of assigning a sequence of characters. 
-In many domains, names assigned to resources also depend on or are limited by rules, industry practice, or technological considerations.
-We will discuss some naming issues and principles that help us name things in useful ways.
+| Often, we need to give a name to this resource, a label that will help us understand and explain what it is.
+| Resources, such as `files`, `servers`, `tables`, `fields`, `events` in web analytics, `documents`, `business concepts`, `terms`, `metrics`, etc  - represent elements or objects used in information systems or software for storing, processing, transmitting, or presenting data.
+| Resources need names so that we can find, describe, reuse, refer to, or link to them, record who owns them, and interact with them in other ways. But naming is not just a matter of assigning a sequence of characters. 
+| In many domains, names assigned to resources also depend on or are limited by rules, industry practice, or technological considerations.
+| We will discuss some naming issues and principles that help us name things in useful ways.
 
 Why is this so important?
 
-Naming can be related to our understanding of the essence of things, and this is evident when we use names that best describe or capture the key aspects of the subject. 
-This can help not only in precise identification but also in creating a deeper awareness of relationships and interactions in the studied subject area.
+| Naming can be related to our understanding of the essence of things, and this is evident when we use names that best describe or capture the key aspects of the subject. 
+| This can help not only in precise identification but also in creating a deeper awareness of relationships and interactions in the studied subject area.
 
 .. note::
    "Now the Lord God had formed out of the ground all the wild animals and all the birds in the sky. 
    He brought them to the man to see what he would name them; and whatever the man called each living creature, that was its name."
    Genesis 2:19
 
-   Assigning names in this context has symbolic significance. In ancient societies, a name was extremely important.
-   By giving Adam the ability to name the animals, God demonstrates trust and faith in his ability to perceive and understand the world. 
-   The process of naming animals can also be interpreted as a gift of participation and management to humans.
-   It represents an opportunity for humans to demonstrate care and knowledge about the world around them, emphasizing responsibility for the surrounding world.
+   | Assigning names in this context has symbolic significance. In ancient societies, a name was extremely important.
+   | By giving Adam the ability to name the animals, God demonstrates trust and faith in his ability to perceive and understand the world. 
+   | The process of naming animals can also be interpreted as a gift of participation and management to humans.
+   | It represents an opportunity for humans to demonstrate care and knowledge about the world around them, emphasizing responsibility for the surrounding world.
 
 Assigning names to anything, from business to concepts and actions, can be a difficult process, and it can be done well or poorly.
 
@@ -35,22 +35,22 @@ Naming issues
 Ambiguity and the problem of vocabulary
 ===========
 
-No single word can be considered the **best** name - this phenomenon is referred to as the problem of vocabulary.
-Every natural language offers several ways to express any thought, and in particular, there are usually multiple words that can be used to denote the same object or concept. 
-People choose to name or describe things based on their experience and context, so they often disagree about the words they use. 
-Furthermore, people are often surprised when this happens because what seems natural or obvious as a name to one person is not natural or obvious to another.
+| No single word can be considered the **best** name - this phenomenon is referred to as the problem of vocabulary.
+| Every natural language offers several ways to express any thought, and in particular, there are usually multiple words that can be used to denote the same object or concept. 
+| People choose to name or describe things based on their experience and context, so they often disagree about the words they use. 
+| Furthermore, people are often surprised when this happens because what seems natural or obvious as a name to one person is not natural or obvious to another.
 
 
 Homonymy, polysemy, and false cognates
 ===========
 
-Sometimes, the same word can refer to different resources: 'bank' can mean a financial institution or the edge of a river. 
-When two words have the same spelling but different meanings, they are called homographs; if they are also pronounced the same way, they are homonyms. 
-When different meanings of homographs are related, it's called polysemy.
+| Sometimes, the same word can refer to different resources: 'bank' can mean a financial institution or the edge of a river. 
+| When two words have the same spelling but different meanings, they are called homographs; if they are also pronounced the same way, they are homonyms. 
+| When different meanings of homographs are related, it's called polysemy.
 
-Resources with homonymous and polysemous names are sometimes incorrectly identified, especially by automated processes that cannot use common sense or context. 
-When a word in one language has a different meaning and refers to different resources in another language, it can be funny or catastrophically harmful. 
-``Gift`` in German means ``poison`` and ``pain`` in French means ``bread``.
+| Resources with homonymous and polysemous names are sometimes incorrectly identified, especially by automated processes that cannot use common sense or context. 
+| When a word in one language has a different meaning and refers to different resources in another language, it can be funny or catastrophically harmful. 
+| ``Gift`` in German means ``poison`` and ``pain`` in French means ``bread``.
 
 
 Names with unwanted associations
@@ -93,9 +93,9 @@ Some companies use dates or years in their names to indicate a future orientatio
 The semantic gap
 ===========
 
-The semantic gap refers to a lack of understanding of information stored in data. 
-This lack of understanding can vary among users or between users and data creators.
-It arises from differences in describing and naming resources when automated processes use technical but uninformative labels that differ from human preferences.
+| The semantic gap refers to a lack of understanding of information stored in data. 
+| This lack of understanding can vary among users or between users and data creators.
+| It arises from differences in describing and naming resources when automated processes use technical but uninformative labels that differ from human preferences.
 
 Names such as ``IMG30467.jpg`` on a digital photograph might make sense for the camera during sequential image storage, but they are inconvenient for humans. 
 We prefer names that describe the content of the image, for instance, ``MyBeautifulGarden.jpg``
@@ -166,8 +166,8 @@ The inconsistent use of upper and lower case makes names less readable and harde
 Unclear Abbreviations and Acronyms
 ===========
 
-The problem of unclear abbreviations arises when projects or teams use abbreviations or acronyms that are not explained or widely known.
-This can lead to misunderstanding among team members, confusion within the project, and even conflicts due to different interpretations of the abbreviations.
+| The problem of unclear abbreviations arises when projects or teams use abbreviations or acronyms that are not explained or widely known.
+| This can lead to misunderstanding among team members, confusion within the project, and even conflicts due to different interpretations of the abbreviations.
 
 For example, the abbreviation **JK** might refer to an employee, John Kowalski, but not everyone will understand it. **PM** could mean Project Manager or Product Marketing, causing confusion in context.
 
@@ -204,46 +204,40 @@ Choosing good names and identifiers
 Make names informative
 ===========
 
-The most fundamental principle in naming is to select informative names that facilitate understanding and memorization.
-Use names that are intuitive and easy to remember.
-Avoid using generic or universal names.
+| The most fundamental principle in naming is to select informative names that facilitate understanding and memorization.
+| Use names that are intuitive and easy to remember.
+| Avoid using generic or universal names.
 
 
 Avoid overly long names
 ===========
 
-This principle is based on the idea that excessively long names complicate information perception and can reduce work efficiency. 
-Additionally, shorter names minimize the risk of duplicates from word rearrangement.
-This naming rule is like to **Occam's razor**, suggesting that the simplest solution is often the best.
-It's important to condense the name to its core meaning by removing unnecessary words or phrases.
+| This principle is based on the idea that excessively long names complicate information perception and can reduce work efficiency. 
+| Additionally, shorter names minimize the risk of duplicates from word rearrangement.
+| This naming rule is like to **Occam's razor**, suggesting that the simplest solution is often the best.
+| It's important to condense the name to its core meaning by removing unnecessary words or phrases.
 
 .. tip::
-   calculate_total_sum_of_items_in_shopping_cart_and_apply_discount_and_add_tax -> **calculate_final_cost**
+   | calculate_total_sum_of_items_in_shopping_cart_and_apply_discount_and_add_tax -> **calculate_final_cost**
+   | employeeSalaryIncreaseAfterTaxAndDeductions -> **netSalary**
+   | Plan for project execution based on risk analysis and accounting for internal factors -> **Adaptive project execution plan**
+   | introduction_to_the_card_issuance_process -> **card_issue_intro**
 
-   employeeSalaryIncreaseAfterTaxAndDeductions -> **netSalary**
-
-   Plan for project execution based on risk analysis and accounting for internal factors -> **Adaptive project execution plan**
-
-   introduction_to_the_card_issuance_process -> **card_issue_intro**
-
-Identify the main keywords or concepts most important for describing an object or process. 
-Then use them in a concise format. If details or specifications are not crucial for understanding, they can be simplified or excluded from the name. 
-There's also a technique known as **shrinking to sense** or **reducing to ultimate meaning**. 
-It involves systematically removing words or parts of a phrase while preserving the core meaning, stopping when further removal would cause loss of sense.
+| Identify the main keywords or concepts most important for describing an object or process. 
+| Then use them in a concise format. If details or specifications are not crucial for understanding, they can be simplified or excluded from the name. 
+| There's also a technique known as **shrinking to sense** or **reducing to ultimate meaning**. 
+| It involves systematically removing words or parts of a phrase while preserving the core meaning, stopping when further removal would cause loss of sense.
 
 .. tip::
-   For instance, let's consider the lengthy title "Adaptive project execution plan based on risk analysis and internal factors". 
-   You can progressively remove words:
-   "Adaptive project execution plan based on risk analysis and internal factors"
-
-   "Adaptive project execution plan based on risk analysis"
-    
-   "Adaptive project execution plan"
-    
-   "Project execution plan"
+   | For instance, let's consider the lengthy title
+   | **"Adaptive project execution plan based on risk analysis and internal factors"** 
+   | You can progressively remove words:
+   | "Adaptive project execution plan based on risk analysis and internal factors"
+   | "Adaptive project execution plan based on risk analysis"   
+   | "Adaptive project execution plan"    
+   | "Project execution plan"
 
   Continuing this way until the essential meaning is retained.
-
 
 .. toctree::
   :caption: Table of Contents
