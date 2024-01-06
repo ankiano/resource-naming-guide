@@ -4,7 +4,7 @@ Resource naming guide
 Overview
 **********
 
-| Often, we need to give a name to this resource, a label that will help us understand and explain what it is.
+| Often, we need to give a name to some resource, a label that will help us understand and explain what it is.
 | Resources, such as `files`, `servers`, `tables`, `fields`, `events` in web analytics, `documents`, `business concepts`, `terms`, `metrics`, etc  - represent elements or objects used in information systems or software for storing, processing, transmitting, or presenting data.
 | Resources need names so that we can find, describe, reuse, refer to, or link to them, record who owns them, and interact with them in other ways. 
 | But naming is not just a matter of assigning a sequence of characters. 
