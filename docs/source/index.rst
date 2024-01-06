@@ -45,7 +45,7 @@ Ambiguity and the problem of vocabulary
 Homonymy, polysemy, and false cognates
 ===========
 
-| Words that sound alike, words with multiple meanings, and words that look similar but mean different things
+| Words that sound alike, words with multiple meanings, and words that look similar but mean different things.
 | Sometimes, the same word can refer to different resources: ``bank`` can mean a financial institution or the edge of a river. 
 | Resources with names that sound alike or have many meanings can be mistaken or incorrectly identified, especially by automated processes that cannot use common sense or context. 
 
@@ -72,8 +72,15 @@ Ignoring biases and ideas about names might seem okay, but it can cause big prob
 Discrimination
 ===========
 
-Organizing resources alphabetically might appear equitable, yet it can create systematic bias in favor of names starting with early alphabet letters.
-This sets up a scenario where resources listed earlier gain an advantage, overlooking the merits and potential of others.
+| Alphabetical Bias: 
+| While organizing resources alphabetically may seem fair, it can introduce a bias toward names beginning with letters early in the alphabet.
+| This sets up a scenario where resources listed earlier gain an advantage, overlooking the merits and potential of others.
+
+| Length Restrictions:
+| Systems that limit the length of names might disadvantage individuals with longer names, leading to truncation or exclusion of parts of their names.
+
+| Localization: 
+| When systems are not localized for different regions or languages, they might not accommodate specific naming customs or variations, leading to exclusion or misrepresentation.
 
 
 Names that assume impermanent attributes
