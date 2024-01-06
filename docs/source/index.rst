@@ -8,12 +8,12 @@ Overview
 | Resources, such as `files`, `servers`, `tables`, `fields`, `events` in web analytics, `documents`, `business concepts`, `terms`, `metrics`, etc  - represent elements or objects used in information systems or software for storing, processing, transmitting, or presenting data.
 | Resources need names so that we can find, describe, reuse, refer to, or link to them, record who owns them, and interact with them in other ways. 
 | But naming is not just a matter of assigning a sequence of characters. 
-| In many domains, names assigned to resources also depend on or are limited by rules, industry practice, or technological considerations.
+| In various fields, the names given to resources are influenced by rules, industry norms, or technological factors.
 | We will discuss some naming issues and principles that help us name things in useful ways.
 
 Why is this so important?
 
-| Naming can be related to our understanding of the essence of things, and this is evident when we use names that best describe or capture the key aspects of the subject. 
+| Naming can be related to our understanding of the essence of things. This becomes clear when we use names that accurately describe or capture the main aspects of a subject. 
 | This can help not only in precise identification but also in creating a deeper awareness of relationships and interactions in the studied subject area.
 
 .. note::
@@ -36,22 +36,20 @@ Naming issues
 Ambiguity and the problem of vocabulary
 ===========
 
-| No single word can be considered the **best** name - this phenomenon is referred to as the problem of vocabulary.
-| Every natural language offers several ways to express any thought, and in particular, there are usually multiple words that can be used to denote the same object or concept. 
+| There's no absolute best word to name something - this is known as the vocabulary issue.
+| Natural languages give many options to express ideas. Typically, there are multiple words to represent the same object or concept.
 | People choose to name or describe things based on their experience and context, so they often disagree about the words they use. 
-| Furthermore, people are often surprised when this happens because what seems natural or obvious as a name to one person is not natural or obvious to another.
+| This often surprises people because what feels like a natural name to one person might not feel the same to someone else.
 
 
 Homonymy, polysemy, and false cognates
 ===========
 
+| Words that sound alike, words with multiple meanings, and words that look similar but mean different things
 | Sometimes, the same word can refer to different resources: ``bank`` can mean a financial institution or the edge of a river. 
-| When two words have the same spelling but different meanings, they are called `homographs`.
-| If they are also pronounced the same way, they are `homonyms`. 
-| When different meanings of homographs are related, it's called `polysemy`.
+| Resources with names that sound alike or have many meanings can be mistaken or incorrectly identified, especially by automated processes that cannot use common sense or context. 
 
-| Resources with homonymous and polysemous names are sometimes incorrectly identified, especially by automated processes that cannot use common sense or context. 
-| When a word in one language has a different meaning and refers to different resources in another language, it can be funny or catastrophically harmful. 
+| When a word means something else in another language, it can result in humor or serious problems.
 | ``Gift`` in German means ``poison`` and ``pain`` in French means ``bread``.
 
 
@@ -63,19 +61,19 @@ False cognates can lead to poor names and marketing mistakes.
 .. note::
    For instance, numbers may carry different associations in various cultures: in one culture, the number 8 is valued for its association with wealth, while in another, the number 4 is feared due to its connection to death, or buildings skip the 13th floor in Western cultures due to superstitions. 
 
-Some products face issues due to linguistic peculiarities. 
+Some products have problems because of language differences.
 
 .. note::
-   For example, the Mitsubishi Pajero had negative connotations in the Spanish language, so in the USA, it's called the Montero to avoid undesirable associations and maintain a positive perception.
+   For example, the Mitsubishi Pajero had negative connotations in the Spanish language, so in the USA, It's called the Montero to prevent negative associations and uphold a positive image.
 
-Ignoring biases and preconceptions about names and identifiers might seem harmless, but the consequences are far-reaching and anything but harmless. 
+Ignoring biases and ideas about names might seem okay, but it can cause big problems.
 
 
 Discrimination
 ===========
 
-Ordering resources alphabetically, while seemingly fair, can lead to systematic discrimination in favor of names starting with letters at the beginning of the alphabet. 
-This creates a context where resources listed earlier might receive an advantage, ignoring the merits and potential of others.
+Organizing resources alphabetically might appear equitable, yet it can create systematic bias in favor of names starting with early alphabet letters.
+This sets up a scenario where resources listed earlier gain an advantage, overlooking the merits and potential of others.
 
 
 Names that assume impermanent attributes
@@ -99,15 +97,15 @@ The semantic gap
 | This lack of understanding can vary among users or between users and data creators.
 | It arises from differences in describing and naming resources when automated processes use technical but uninformative labels that differ from human preferences.
 
-Names such as ``IMG30467.jpg`` on a digital photograph might make sense for the camera during sequential image storage, but they are inconvenient for humans. 
+Names such as ``IMG30467.jpg`` on a digital photo might make sense for the camera during sequential image storage, but they are inconvenient for humans. 
 We prefer names that describe the content of the image, for instance, ``MyBeautifulGarden.jpg``
 
 
 Long names
 ===========
 
-Names that are excessively long can be inconvenient to use and visually clutter the code. 
-Adding unnecessary details to object names can lead to redundancy and confusion.
+Very long names can be hard to use and make the code look messy.
+Adding too much information to names can make them confusing and repeat things.
 
 
 Inconsistency
@@ -183,10 +181,10 @@ Acronyms like:
 may be unclear to non-professionals or newcomers
    
 
-Ambiguous Names
+Unclear names
 ===========
 
-Names that fail to reflect the essence of a resource or object can impede understanding, usage, and lead to errors or delays in work.
+Names that don't show what something is can make it hard to use and cause mistakes or slow work down.
 
 ``temp``
   This name might be used for temporary variables in code, tables, or directories, but it doesn't provide information about what exactly is stored in this variable or what it's used for.
@@ -202,11 +200,10 @@ Names that fail to reflect the essence of a resource or object can impede unders
 Choosing good names and identifiers
 **********
 
-
 Make names informative
 ===========
 
-| The most fundamental principle in naming is to select informative names that facilitate understanding and memorization.
+| The most fundamental principle in naming is to select informative names that facilitate understanding.
 | Use names that are intuitive and easy to remember.
 | Avoid using generic or universal names.
 
@@ -214,10 +211,10 @@ Make names informative
 Avoid overly long names
 ===========
 
-| This principle is based on the idea that excessively long names complicate information perception and can reduce work efficiency. 
-| Additionally, shorter names minimize the risk of duplicates from word rearrangement.
+| This rule says that really long names make it hard to understand and can reduce work efficiency. 
+| Also, shorter names mean there's less chance of having two names that are the same but in a different order of words.
 | This naming rule is like to **Occam's razor**, suggesting that the simplest solution is often the best.
-| It's important to condense the name to its core meaning by removing unnecessary words or phrases.
+| It's important to make names shorter to its core meaning by removing unnecessary words or phrases.
 
 .. tip::
    | calculate_total_sum_of_items_in_shopping_cart_and_apply_discount_and_add_tax
@@ -237,9 +234,9 @@ Avoid overly long names
    | **card_issue_intro**
 
 | Identify the main keywords or concepts most important for describing an object or process. 
-| Then use them in a concise format. If details or specifications are not crucial for understanding, they can be simplified or excluded from the name. 
+| Then use them in a brief manner. If details or specifications are not crucial for understanding, they can be simplified or excluded from the name. 
 | There's also a technique known as **shrinking to sense** or **reducing to ultimate meaning**. 
-| It involves systematically removing words or parts of a phrase while preserving the core meaning, stopping when further removal would cause loss of sense.
+| It means systematically removing words or parts of a phrase while retaining the core meaning, stopping when further removal would cause loss of sense.
 
 .. tip::
    | You can progressively remove words:
@@ -258,9 +255,9 @@ Consistency
 
 | Consistency is a characteristic that reflects the degree of stability, uniformity, or constancy in something. 
 | Maintaining a unified naming style throughout a project or organization helps achieve this. 
-| Applying naming standards that adhere to specific rules and conventions aids in creating uniform and easily readable code or a system, which, in turn, facilitates teamwork and information exchange among developers, analysts, and other project participants.
+| Using naming rules makes code or systems look the same and easy to read. This helps people work together and share information among developers, analysts, and other project participants.
 
-Rules and styles can pertain to format only, for instance, choosing one of the standards for compound names:
+Standards and conventions may specifically relate to formatting, like selecting a preferred style for compound names.
 
 ``camelCase``
   Each new word starts with a capital letter, without spaces. Example: myVariableName, calculateInterestRate.
@@ -273,20 +270,17 @@ Rules and styles can pertain to format only, for instance, choosing one of the s
 ``MixedCase``
   Represents a mixed style where different parts of words may have different cases. Example: iOSDevelopment, JavaScriptProgramming.
 
-Rules can also pertain to the order of compound words and their suffixes and prefixes.
+Rules can also relate to the order of compound words and their suffixes and prefixes.
 
 .. tip::
   | For example, consistently using the word 'intro' at the end when naming screens in a mobile application: 
   | `splash_intro`, `select_country_intro`, `select_product_intro`, `verify_income_intro`, `account_app_intro`, `card_issue_intro`, etc. 
   | It's essential to maintain uniformity.
 
-For complex systems like data repositories, conventions are often developed using semantic rules to explain the object's meaning by its name.
+For complex systems like data warehouses, conventions are often developed using semantic rules to explain the object's meaning by its name.
 
 | The *COAST GUARD DATA ELEMENT NAMING STANDARDS* serve as an excellent example.
 | The data object name consists of terms divided into three categories: 
-* the prime word
-* classifying word
-* and modifiers (determiners).
 
 ``Prime Words``:
   | Nouns or phrases describing the subject or primary meaning of the name.
@@ -308,7 +302,7 @@ For complex systems like data repositories, conventions are often developed usin
   | Limit the meaning of the classifying words and prime words.
   | For example: ``FIRST``, ``LAST``, ``NEXT``, ``BEGIN``, ``END``, ``MAX``, ``MIN``
 
-For complex attribute (field) names in a database table, the sequence might look like this:
+For complex attribute names in a database table, the sequence might look like this:
 
 .. figure:: /_static/attribute.png
    :width: 150%
@@ -323,15 +317,15 @@ e.g.: PERMANENT_EMPLOYEE_LAST_NAME
   | EMPLOYEE -> Prime Word
   | PERMANENT -> Modifier 1
 
-| In data repositories, dictionaries of abbreviations and acronyms might be used, and then the field name could appear as PERM_EMPL_LST_NAME. 
-| This technique was previously employed when there were stricter limitations on name lengths in databases - for instance, in Oracle, there was a 30-character limit.
+| Abbreviations and acronyms might be used, and then the field name could appear as PERM_EMPL_LST_NAME which is still readable and understandable.
+| This technique was previously used when there were stricter limitations on name lengths in databases like a 30-character limit.
 
 Avoid abbreviations and acronyms
 **********
 | Names should be spelled out entirely whenever possible instead of using abbreviations or acronyms. 
 | Abbreviations can cause confusion or ambiguity and might not be universally understood by all team members or stakeholders, especially newcomers.
 
-However, established domain-specific abbreviations or acronyms that are universally clear within the field are permissible:
+However, established domain-specific abbreviations or acronyms that are universally clear within the field are possible:
 
 * API -> application programming interface
 * ROI -> return on investment
@@ -361,8 +355,7 @@ Use controlled vocabularies
 | A controlled vocabulary is similar to a fixed or closed dictionary that includes terms used in a particular domain. 
 | It reduces the number of words used, minimizes synonymy and homonymy, eliminates undesirable associations, and retains a set of words with clearly defined meanings and rules for their use.
 
-| A controlled vocabulary is not merely a set of allowed words; it also includes their definitions and often determines the rules by which dictionary terms can be used and combined. 
-| Different domains may create specific controlled vocabularies for their needs, but it's essential for the vocabulary to be consistently used within that domain
+| A controlled vocabulary is not only a set of allowed words; it also includes their definitions and often determines the rules by which dictionary terms can be used and combined. 
 
 
 Context
