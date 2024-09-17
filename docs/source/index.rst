@@ -364,6 +364,16 @@ Use controlled vocabularies
 
 | A controlled vocabulary is not only a set of allowed words; it also includes their definitions and often determines the rules by which dictionary terms can be used and combined. 
 
+Use catalogs
+**********
+| A good illustration of the use of catalogs can be the catalogs of classical music works, whose titles are quite specific and sometimes it is difficult to find the desired piece.
+
+.. note::
+   For example, to identify Mozart's works, the Köchel catalog is commonly used, which was compiled in 1862 and arranged all known works in chronological order.
+   ``W.A. Mozart - Symphony No. 40 in G minor, K. 550``
+   Or to identify Bach's works, the Bach-Werke-Verzeichnis (BWV) catalog is used, compiled by Wolfgang Schmieder.
+   ``J.S. Bach - Toccata and Fugue in D minor, BWV 565``
+
 
 Context
 **********
